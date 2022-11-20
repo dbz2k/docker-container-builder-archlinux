@@ -1,5 +1,5 @@
 # Arch Linux with base-devel group
-FROM: archlinux:base-devel 
+FROM archlinux:base-devel 
 # update packages 
 RUN pacman -Syu --noconfirm
 # install sudo 
