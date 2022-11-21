@@ -5,7 +5,7 @@ RUN pacman -Syu --noconfirm
 # install sudo 
 RUN pacman -Syu --noconfirm sudo
 # install git
-RUN pacman -Syu --noconfirm sudo
+RUN pacman -Syu --noconfirm git
 # create non-root user for building called builduser
 RUN useradd -m builduser
 # remove non-root user builduser password
